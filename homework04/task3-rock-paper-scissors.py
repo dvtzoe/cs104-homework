@@ -2,6 +2,10 @@ import random
 
 choices = ["rock", "paper", "scissors"]
 
+draw_count = 0
+player_win_count = 0
+computer_win_count = 0
+
 while (player_choice := input("rock, paper, scissors? ")) != "q":
     if player_choice not in choices:
         print("Invalid choice")
@@ -15,7 +19,13 @@ while (player_choice := input("rock, paper, scissors? ")) != "q":
 
         if index_difference == 0:
             print("Draw!")
+            draw_count += 1
         elif index_difference == 1:
             print("Computer wins!")
+            computer_win_count += 1
         else:
             print("You wins!")
+            player_win_count += 1
+print(
+    f"You won {player_win_count}, the computer won {computer_win_count}, draws: {draw_count}"
+)
