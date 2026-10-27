@@ -4,3 +4,6 @@
 [submodule "homework05"]
 	path = homework05
 	url = https://github.com/dvtzoe/hw05
+[submodule "homework06"]
+	path = homework06
+	url = https://github.com/dvtzoe/hw06
