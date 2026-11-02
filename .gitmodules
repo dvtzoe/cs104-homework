@@ -7,3 +7,6 @@
 [submodule "homework06"]
 	path = homework06
 	url = https://github.com/dvtzoe/hw06
+[submodule "assignment-food-delivery-sorter"]
+	path = assignment-food-delivery-sorter
+	url = https://github.com/dvtzoe/food-sorter
