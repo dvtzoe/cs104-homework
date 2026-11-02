@@ -10,3 +10,6 @@
 [submodule "assignment-food-delivery-sorter"]
 	path = assignment-food-delivery-sorter
 	url = https://github.com/dvtzoe/food-sorter
+[submodule "homework-stacks-queues-and-recursion"]
+	path = homework-stacks-queues-and-recursion
+	url = https://github.com/dvtzoe/-
